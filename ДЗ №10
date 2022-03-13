@@ -1,0 +1,7 @@
+// Домашнее задание № 10
+Console.WriteLine("Введите трехзначное число: ");
+int Number = Convert.ToInt32(Console.ReadLine ());
+if (Number > 100 & Number < 999){
+    int a = (Number / 10) % 10 ; 
+Console.WriteLine($"вторая цифра числа равна {a} ");
+} 
