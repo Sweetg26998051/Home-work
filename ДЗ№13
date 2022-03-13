@@ -1,0 +1,15 @@
+// Домашнее задание №13
+
+Console.WriteLine("Введите любое число");
+int FirstNumber = Convert.ToInt32(Console.ReadLine());
+int SecondNumber = Convert.ToInt32(Console.ReadLine());
+int a = 0 ;
+if (a == (FirstNumber % SecondNumber))
+{
+    Console.WriteLine ($"кратно");
+    }
+else 
+{  
+    Console.WriteLine ($"остаток: ");
+    Console.WriteLine (FirstNumber % SecondNumber);
+}
